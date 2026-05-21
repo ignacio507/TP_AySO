@@ -1,0 +1,149 @@
+pwd
+ls
+man ls
+ls -1
+ls.l
+ls-l
+cd readme
+cd repogit/
+ls
+ls-l
+ls .l
+ls -l
+cd ..
+ls
+man ls
+ls -a
+ls -a -l
+ls -al
+ls la
+pwd
+cd /
+pwd
+ls
+ls .la
+ls -la
+cd etc/
+ls -l
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+pwd
+mkdir repogit
+cd repoit
+cd
+home
+mkdir repogit
+cd repogit
+ls
+git clone git@github.com:ignacio507/TP_AySO.git
+ls
+cd repogit
+ls
+cd TP_AySO/
+git clone git@github.com:ignacio507/TP_AySO.git
+cd ..
+rm-r TP_AySO/
+ls
+cd repogit
+ls
+rm-r TP_AySO/
+rm TP_AySO/
+rmdir TP_AySO/
+rm -r TP_AySO/
+yes
+ls
+cd repogit
+ls
+git clone git@github.com:ignacio507/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cd
+ls
+cd repogit
+ls
+“passwd“
+cat /etc/passwd
+grep UBUNTU /etc/passwd
+grep ubuntu /etc/passwd
+grep <parámetro> Ubuntu /etc/passwd
+grep -i Ubuntu /etc/passwd
+cd ~/repogit/TP_AySO
+grep ubuntu /etc/passwd | awk -F: '{print $2}' > datos_usuario.txt
+echo "Usuario=$(whoami)" >> datos_usuario.txt
+git config --global user.email barrientosaston2018@gmail.com
+git config --global user.name ignacio507
+git add datos_usuario.txt
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+grep "model name" /proc/cpuinfo | head -n1 > info_pc.txt
+git add info_pc.txt
+git commit -m "feat: Añadiendo información de CPU"
+git push
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+cat << EOF >> README.md
+Alumno: Ignacio Barrientos
+División: 116
+Turno: Mañana
+EOF
+
+git add README.md
+git commit -m "docs: agregar datos personales del alumno al README"
+git push
+cat datos_usuario.txt 
+cd
+cd repogit
+ls
+Cd TP_AySO/
+cd TP_AySO/
+ls
+cd
+ls
+cd repogit
+cd TP_AySO/
+cat lista_ordenada 
+pwd
+cat README.md 
+sudo snap install tree
+home
+cd
+mkdir -p TP1/{arquitectura/Clase{1,2,3,4,5},so/Clase{1,2,3,4,5,6}}
+tee TP1/
+ls
+tree TP1/
+echo "mkdir -p TP1/{arquitectura/Clase{1,2,3,4,5},so/Clase{1,2,3,4,5,6}}" > script_dir.sh
+chmod +x script_dir.sh
+git add .
+cd repogit/
+cd TP_AySO/
+git add.
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+mv ~/TP1 ~/repogit/TP_AySO/
+ls
+cd
+ls
+mv script_dir.sh repogit/
+ls
+cd repogit/
+mv script_dir.sh TP_AySO/
+git add .
+cd TP_AySO/
+git add .
+git status
+git commit -m "ADD: Añadiendo script y estructura TP1"
+git push
+tree 
+history -a
+cd
+cp ~/.bash_history Historial_comandos_BarrientosIgnacio.txt
+tail Historial_comandos_BarrientosIgnacio.txt
+cd repogit/
+cd TP_AySO/
+git push
+history -a
